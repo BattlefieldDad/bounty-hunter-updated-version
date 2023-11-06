@@ -1,0 +1,2623 @@
+{
+  "blocks": {
+    "languageVersion": 0,
+    "blocks": [
+      {
+        "type": "modBlock",
+        "id": "h`UfrMNCq316$FSZ[*gP",
+        "x": 78,
+        "y": 2005,
+        "inputs": {
+          "RULES": {
+            "block": {
+              "type": "ruleBlock",
+              "id": "zx.2qTU:fqlB0Uy3sR,%",
+              "extraState": {
+                "isOngoingEvent": true
+              },
+              "fields": {
+                "NAME": "initialisePlayerVariables",
+                "EVENTTYPE": "Ongoing",
+                "OBJECTTYPE": "Player"
+              },
+              "inputs": {
+                "ACTIONS": {
+                  "block": {
+                    "type": "SetVariable",
+                    "id": "am.:;,e/3$J+Kcx:J`6f",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "variableReferenceBlock",
+                          "id": "gYwPvfw{49,u/oo~_T/K",
+                          "extraState": {
+                            "isObjectVar": true
+                          },
+                          "fields": {
+                            "OBJECTTYPE": "Player",
+                            "VAR": {
+                              "id": "tb76fgFxj|xFI[kECrAL"
+                            }
+                          },
+                          "inputs": {
+                            "OBJECT": {
+                              "block": {
+                                "type": "EventPlayer",
+                                "id": ")}QTB.dHHMYs`YRlLbN@"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "VALUE-1": {
+                        "block": {
+                          "type": "Boolean",
+                          "id": "@mHJNz^+`Z+}KaNm=Cr%",
+                          "fields": {
+                            "BOOL": "FALSE"
+                          }
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "SetVariable",
+                        "id": "lFsXDTdl{s+liNkt|!+}",
+                        "inputs": {
+                          "VALUE-0": {
+                            "block": {
+                              "type": "variableReferenceBlock",
+                              "id": "8X6!d,;snC;G(sz|36#v",
+                              "extraState": {
+                                "isObjectVar": true
+                              },
+                              "fields": {
+                                "OBJECTTYPE": "Player",
+                                "VAR": {
+                                  "id": "jnE8p@J*!Hhx1q[Ns2HB"
+                                }
+                              },
+                              "inputs": {
+                                "OBJECT": {
+                                  "block": {
+                                    "type": "EventPlayer",
+                                    "id": "Ge#Eh5*ZNTI:Hu9?q*g="
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "VALUE-1": {
+                            "block": {
+                              "type": "Number",
+                              "id": "L:e[i,wBzz4^k(@[BUNw",
+                              "fields": {
+                                "NUM": 0
+                              }
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "SetVariable",
+                            "id": "65~(|+}M`m7~m#$2EtbM",
+                            "inputs": {
+                              "VALUE-0": {
+                                "block": {
+                                  "type": "variableReferenceBlock",
+                                  "id": "6#,1j1)-[]XDt_$Yqjre",
+                                  "extraState": {
+                                    "isObjectVar": true
+                                  },
+                                  "fields": {
+                                    "OBJECTTYPE": "Player",
+                                    "VAR": {
+                                      "id": "GmDEH{2[t3E;,=/dbLE/"
+                                    }
+                                  },
+                                  "inputs": {
+                                    "OBJECT": {
+                                      "block": {
+                                        "type": "EventPlayer",
+                                        "id": "+Z`pX5zY:8|oIxe!jeO#"
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "VALUE-1": {
+                                "block": {
+                                  "type": "Number",
+                                  "id": "R}oD#g}O0D^E8yS5=.#B",
+                                  "fields": {
+                                    "NUM": 1
+                                  }
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "type": "SetVariable",
+                                "id": "iyFYNyv_ZXC75]6`GY2p",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "variableReferenceBlock",
+                                      "id": "Ib+k}~.mEreo+nGlZ|$:",
+                                      "extraState": {
+                                        "isObjectVar": true
+                                      },
+                                      "fields": {
+                                        "OBJECTTYPE": "Player",
+                                        "VAR": {
+                                          "id": "jnE8p@J*!Hhx1q[Ns2HB"
+                                        }
+                                      },
+                                      "inputs": {
+                                        "OBJECT": {
+                                          "block": {
+                                            "type": "EventPlayer",
+                                            "id": "~=*Ei*iDt#{vCjJlBhMt"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "VALUE-1": {
+                                    "block": {
+                                      "type": "Text",
+                                      "id": "TeP$(!j6k7Qu]d`;e#uI",
+                                      "fields": {
+                                        "TEXT": "UNKNOWN"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "next": {
+                "block": {
+                  "type": "ruleBlock",
+                  "id": "J.2|^ig?R$.~kiLA)FI[",
+                  "extraState": {
+                    "isOngoingEvent": true
+                  },
+                  "fields": {
+                    "NAME": "initialiseVariables",
+                    "EVENTTYPE": "Ongoing",
+                    "OBJECTTYPE": "Global"
+                  },
+                  "inputs": {
+                    "ACTIONS": {
+                      "block": {
+                        "type": "SetVariable",
+                        "id": "YdtaWYAG.wFV8|N+HJe/",
+                        "inputs": {
+                          "VALUE-0": {
+                            "block": {
+                              "type": "variableReferenceBlock",
+                              "id": "r#XBfsKDD9P]~WLI/l#t",
+                              "extraState": {
+                                "isObjectVar": false
+                              },
+                              "fields": {
+                                "OBJECTTYPE": "Global",
+                                "VAR": {
+                                  "id": "DP.T-!KCfq2j7#_e@m=?"
+                                }
+                              }
+                            }
+                          },
+                          "VALUE-1": {
+                            "block": {
+                              "type": "Number",
+                              "id": "BD#B^;~TLhkm$Gaj|[SK",
+                              "fields": {
+                                "NUM": 10
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  "next": {
+                    "block": {
+                      "type": "ruleBlock",
+                      "id": "qiYy8s7_d!ic[/_=kw}G",
+                      "extraState": {
+                        "isOngoingEvent": false
+                      },
+                      "fields": {
+                        "NAME": "disbleDefaultScoring",
+                        "EVENTTYPE": "OnGameModeStarted"
+                      },
+                      "inputs": {
+                        "ACTIONS": {
+                          "block": {
+                            "type": "EnableDefaultScoring",
+                            "id": "my5h$+a{D%qnZ)`G^Dfc",
+                            "inputs": {
+                              "VALUE-0": {
+                                "block": {
+                                  "type": "Boolean",
+                                  "id": "w*;m[.GwC%$@6[#~d+hE",
+                                  "fields": {
+                                    "BOOL": "FALSE"
+                                  }
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "type": "SetTargetScore",
+                                "id": "Vn9Gkznkeg6RqV4EKSv~",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "Number",
+                                      "id": "TPi;?R0q4FmeT(HmaM-6",
+                                      "fields": {
+                                        "NUM": 500
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "next": {
+                        "block": {
+                          "type": "ruleBlock",
+                          "id": ",Ar{XI:E,jlRmXYaCp1n",
+                          "extraState": {
+                            "isOngoingEvent": false
+                          },
+                          "fields": {
+                            "NAME": "resetAllOnDeploy",
+                            "EVENTTYPE": "OnPlayerDeployed"
+                          },
+                          "inputs": {
+                            "ACTIONS": {
+                              "block": {
+                                "type": "SetVariable",
+                                "id": "q9F4qmH*WB=4Z)5lJ9JJ",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "variableReferenceBlock",
+                                      "id": "?Ci{CjYGk2HJ,|:,aWNh",
+                                      "extraState": {
+                                        "isObjectVar": true
+                                      },
+                                      "fields": {
+                                        "OBJECTTYPE": "Player",
+                                        "VAR": {
+                                          "id": "%q[bMg,y3-P``?W@sP=!"
+                                        }
+                                      },
+                                      "inputs": {
+                                        "OBJECT": {
+                                          "block": {
+                                            "type": "EventPlayer",
+                                            "id": "REzagPV=RhW4}o?=avrU"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "VALUE-1": {
+                                    "block": {
+                                      "type": "Text",
+                                      "id": "*(zZwS;!J3r18e)Mdl[T",
+                                      "fields": {
+                                        "TEXT": "UNKNOWN"
+                                      }
+                                    }
+                                  }
+                                },
+                                "next": {
+                                  "block": {
+                                    "type": "SetVariable",
+                                    "id": "r),Ijal+SbWq!MzK%Khg",
+                                    "inputs": {
+                                      "VALUE-0": {
+                                        "block": {
+                                          "type": "variableReferenceBlock",
+                                          "id": "d?V5^hWje%Go_K3i5JAQ",
+                                          "extraState": {
+                                            "isObjectVar": true
+                                          },
+                                          "fields": {
+                                            "OBJECTTYPE": "Player",
+                                            "VAR": {
+                                              "id": "jnE8p@J*!Hhx1q[Ns2HB"
+                                            }
+                                          },
+                                          "inputs": {
+                                            "OBJECT": {
+                                              "block": {
+                                                "type": "EventPlayer",
+                                                "id": "G^j:O=E:=}gfHsfnuAq]"
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "VALUE-1": {
+                                        "block": {
+                                          "type": "Number",
+                                          "id": "fIODfEINUp]y!h*aiNxl",
+                                          "fields": {
+                                            "NUM": 0
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "next": {
+                                      "block": {
+                                        "type": "SetVariable",
+                                        "id": "gBWs@D7zQRjQkA!J.f$2",
+                                        "inputs": {
+                                          "VALUE-0": {
+                                            "block": {
+                                              "type": "variableReferenceBlock",
+                                              "id": "%V6y!QJm6N]/r)4h^`Zq",
+                                              "extraState": {
+                                                "isObjectVar": true
+                                              },
+                                              "fields": {
+                                                "OBJECTTYPE": "Player",
+                                                "VAR": {
+                                                  "id": "tb76fgFxj|xFI[kECrAL"
+                                                }
+                                              },
+                                              "inputs": {
+                                                "OBJECT": {
+                                                  "block": {
+                                                    "type": "EventPlayer",
+                                                    "id": "K:+`1u00vfn~n=TgqMO}"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "VALUE-1": {
+                                            "block": {
+                                              "type": "Boolean",
+                                              "id": "4d{V5W(bqk-Ot$]nE2XQ",
+                                              "fields": {
+                                                "BOOL": "FALSE"
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "next": {
+                                          "block": {
+                                            "type": "SetVariable",
+                                            "id": "uouW2g-{ANdm,OGg9*MN",
+                                            "inputs": {
+                                              "VALUE-0": {
+                                                "block": {
+                                                  "type": "variableReferenceBlock",
+                                                  "id": "X=S7YR)Uo@UTtBx[DYjH",
+                                                  "extraState": {
+                                                    "isObjectVar": true
+                                                  },
+                                                  "fields": {
+                                                    "OBJECTTYPE": "Player",
+                                                    "VAR": {
+                                                      "id": "GmDEH{2[t3E;,=/dbLE/"
+                                                    }
+                                                  },
+                                                  "inputs": {
+                                                    "OBJECT": {
+                                                      "block": {
+                                                        "type": "EventPlayer",
+                                                        "id": "B.h~i[-=z+(KufP9eEd4"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "VALUE-1": {
+                                                "block": {
+                                                  "type": "Number",
+                                                  "id": "@:?=(Uj[#$xWoiMo-_]l",
+                                                  "fields": {
+                                                    "NUM": 1
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "next": {
+                                              "block": {
+                                                "type": "subroutineInstanceBlock",
+                                                "id": "0^[v1seTsvyi;=oblgVh",
+                                                "extraState": {
+                                                  "subroutineName": "updatePlayerStreakMessage",
+                                                  "parameters": []
+                                                },
+                                                "fields": {
+                                                  "SUBROUTINE_NAME": "updatePlayerStreakMessage"
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "next": {
+                            "block": {
+                              "type": "ruleBlock",
+                              "id": "^qSqM_Iv.Xe5})VHvh7:",
+                              "extraState": {
+                                "isOngoingEvent": false
+                              },
+                              "fields": {
+                                "NAME": "clearandreset",
+                                "EVENTTYPE": "OnPlayerDied"
+                              },
+                              "inputs": {
+                                "ACTIONS": {
+                                  "block": {
+                                    "type": "ClearAllCustomNotificationMessages",
+                                    "id": "8*tV7GoK1*A@nF)3zpsm",
+                                    "inputs": {
+                                      "VALUE-0": {
+                                        "block": {
+                                          "type": "EventPlayer",
+                                          "id": "bB8~QIMh9s_udPhK698P"
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "next": {
+                                "block": {
+                                  "type": "ruleBlock",
+                                  "id": "n0/2Jf?|;VEYTQ^KtSP9",
+                                  "extraState": {
+                                    "isOngoingEvent": false
+                                  },
+                                  "fields": {
+                                    "NAME": "addToHVTPointsMultiplier",
+                                    "EVENTTYPE": "OnPlayerEarnedKill"
+                                  },
+                                  "inputs": {
+                                    "CONDITIONS": {
+                                      "block": {
+                                        "type": "conditionBlock",
+                                        "id": "qxm8|9[v%GDe_6.bx=%K",
+                                        "inputs": {
+                                          "CONDITION": {
+                                            "block": {
+                                              "type": "Not",
+                                              "id": "+|xmZbSgA?RNMk8E~gQH",
+                                              "inputs": {
+                                                "VALUE-0": {
+                                                  "block": {
+                                                    "type": "Equals",
+                                                    "id": "TmWKd!;x/Wd9vL1|8|yT",
+                                                    "inputs": {
+                                                      "VALUE-0": {
+                                                        "block": {
+                                                          "type": "EventPlayer",
+                                                          "id": "~%*B:]~#.hNz5r~c6^J2"
+                                                        }
+                                                      },
+                                                      "VALUE-1": {
+                                                        "block": {
+                                                          "type": "EventOtherPlayer",
+                                                          "id": "mox~sJ:}6HMDa15RKI0u"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "ACTIONS": {
+                                      "block": {
+                                        "type": "SetVariable",
+                                        "id": "B[8NNz1xNsCNtw}JCTvT",
+                                        "inputs": {
+                                          "VALUE-0": {
+                                            "block": {
+                                              "type": "variableReferenceBlock",
+                                              "id": "qL,W2Xq{|K}1[$V}B|rh",
+                                              "extraState": {
+                                                "isObjectVar": true
+                                              },
+                                              "fields": {
+                                                "OBJECTTYPE": "Player",
+                                                "VAR": {
+                                                  "id": "jnE8p@J*!Hhx1q[Ns2HB"
+                                                }
+                                              },
+                                              "inputs": {
+                                                "OBJECT": {
+                                                  "block": {
+                                                    "type": "EventPlayer",
+                                                    "id": "I.M*dl,lf4P%Qq2C,Xvq"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          },
+                                          "VALUE-1": {
+                                            "block": {
+                                              "type": "Add",
+                                              "id": "tvkEJs-I14Ff(b],t/tn",
+                                              "inputs": {
+                                                "VALUE-0": {
+                                                  "block": {
+                                                    "type": "GetVariable",
+                                                    "id": "HEWD*l]F.LEJ40^TfPpH",
+                                                    "inputs": {
+                                                      "VALUE-0": {
+                                                        "block": {
+                                                          "type": "variableReferenceBlock",
+                                                          "id": "%*!q.)RV]YTgeyXJO{f{",
+                                                          "extraState": {
+                                                            "isObjectVar": true
+                                                          },
+                                                          "fields": {
+                                                            "OBJECTTYPE": "Player",
+                                                            "VAR": {
+                                                              "id": "jnE8p@J*!Hhx1q[Ns2HB"
+                                                            }
+                                                          },
+                                                          "inputs": {
+                                                            "OBJECT": {
+                                                              "block": {
+                                                                "type": "EventPlayer",
+                                                                "id": ")7FQQDV49.XaN),?f~c0"
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "VALUE-1": {
+                                                  "block": {
+                                                    "type": "Number",
+                                                    "id": "A=]MjN6w+AcEjhukgZ[_",
+                                                    "fields": {
+                                                      "NUM": 1
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "next": {
+                                          "block": {
+                                            "type": "If",
+                                            "id": "KaNIaH2}.bjBCP?gXKu0",
+                                            "extraState": {},
+                                            "inputs": {
+                                              "VALUE-0": {
+                                                "block": {
+                                                  "type": "And",
+                                                  "id": "P`V8I8-1.agCJ|$x4}yR",
+                                                  "inputs": {
+                                                    "VALUE-0": {
+                                                      "block": {
+                                                        "type": "Equals",
+                                                        "id": "GM])dz!No*IA{{E*]}|O",
+                                                        "inputs": {
+                                                          "VALUE-0": {
+                                                            "block": {
+                                                              "type": "GetVariable",
+                                                              "id": "R0G#qU3{A(^Yz=y,88]t",
+                                                              "inputs": {
+                                                                "VALUE-0": {
+                                                                  "block": {
+                                                                    "type": "variableReferenceBlock",
+                                                                    "id": "Zz0eY#@9xZ%)6pZSTV$A",
+                                                                    "extraState": {
+                                                                      "isObjectVar": true
+                                                                    },
+                                                                    "fields": {
+                                                                      "OBJECTTYPE": "Player",
+                                                                      "VAR": {
+                                                                        "id": "tb76fgFxj|xFI[kECrAL"
+                                                                      }
+                                                                    },
+                                                                    "inputs": {
+                                                                      "OBJECT": {
+                                                                        "block": {
+                                                                          "type": "EventPlayer",
+                                                                          "id": "!IzRvbKy]I);c`,$%s1I"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "VALUE-1": {
+                                                            "block": {
+                                                              "type": "Boolean",
+                                                              "id": ")2`NVPW=;Vr,`Ndn#cxk",
+                                                              "fields": {
+                                                                "BOOL": "FALSE"
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "VALUE-1": {
+                                                      "block": {
+                                                        "type": "GreaterThanEqualTo",
+                                                        "id": "H~4sYYHD62{h;`)SK!8h",
+                                                        "inputs": {
+                                                          "VALUE-0": {
+                                                            "block": {
+                                                              "type": "GetVariable",
+                                                              "id": "$X05dKuxH?3#1tZtc_D|",
+                                                              "inputs": {
+                                                                "VALUE-0": {
+                                                                  "block": {
+                                                                    "type": "variableReferenceBlock",
+                                                                    "id": "I$.FEuUD+ep/{srR}~q6",
+                                                                    "extraState": {
+                                                                      "isObjectVar": true
+                                                                    },
+                                                                    "fields": {
+                                                                      "OBJECTTYPE": "Player",
+                                                                      "VAR": {
+                                                                        "id": "jnE8p@J*!Hhx1q[Ns2HB"
+                                                                      }
+                                                                    },
+                                                                    "inputs": {
+                                                                      "OBJECT": {
+                                                                        "block": {
+                                                                          "type": "EventPlayer",
+                                                                          "id": "O21ENxt{?cPy00aM)aPq"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "VALUE-1": {
+                                                            "block": {
+                                                              "type": "Number",
+                                                              "id": "TLJ)nZlUMziK3zxP79Fc",
+                                                              "fields": {
+                                                                "NUM": 3
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "DO": {
+                                                "block": {
+                                                  "type": "SetVariable",
+                                                  "id": "#O!oJ6?RuAGpGG0**e1_",
+                                                  "inputs": {
+                                                    "VALUE-0": {
+                                                      "block": {
+                                                        "type": "variableReferenceBlock",
+                                                        "id": "lDOEN)XypQJ:}YVLgG*4",
+                                                        "extraState": {
+                                                          "isObjectVar": true
+                                                        },
+                                                        "fields": {
+                                                          "OBJECTTYPE": "Player",
+                                                          "VAR": {
+                                                            "id": "tb76fgFxj|xFI[kECrAL"
+                                                          }
+                                                        },
+                                                        "inputs": {
+                                                          "OBJECT": {
+                                                            "block": {
+                                                              "type": "EventPlayer",
+                                                              "id": "Ru!c!xp{n}y5d;Q4}?I["
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "VALUE-1": {
+                                                      "block": {
+                                                        "type": "Boolean",
+                                                        "id": "{5ks/`RHTtun0Gk#%h+v",
+                                                        "fields": {
+                                                          "BOOL": "TRUE"
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "next": {
+                                                    "block": {
+                                                      "type": "ShowHighlightedGameModeMessage",
+                                                      "id": ":l*mMR{{%18/O%L{Lb.9",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "Message",
+                                                            "id": "u[L8m)o;W@Xa::?S7Skm",
+                                                            "inputs": {
+                                                              "VALUE-0": {
+                                                                "block": {
+                                                                  "type": "Text",
+                                                                  "id": "(LF!wVjKwql;wKHP]tEj",
+                                                                  "fields": {
+                                                                    "TEXT": "YOU ARE NOW AN OUTLAW"
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE-1": {
+                                                          "block": {
+                                                            "type": "EventPlayer",
+                                                            "id": "RuyG28JP[]%mCmQ6eV(i"
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "next": {
+                                              "block": {
+                                                "type": "If",
+                                                "id": "8OapPO$/LU#M%^vcWLpn",
+                                                "extraState": {
+                                                  "elseif": 3,
+                                                  "else": 1
+                                                },
+                                                "inputs": {
+                                                  "VALUE-0": {
+                                                    "block": {
+                                                      "type": "GreaterThanEqualTo",
+                                                      "id": "y;6SM)dz0Y`G1Kms%cAl",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "GetVariable",
+                                                            "id": "6(3v?!3)t2vI/~@83Ll,",
+                                                            "inputs": {
+                                                              "VALUE-0": {
+                                                                "block": {
+                                                                  "type": "variableReferenceBlock",
+                                                                  "id": "p0?iuKf=e,0/2/~hIcg(",
+                                                                  "extraState": {
+                                                                    "isObjectVar": true
+                                                                  },
+                                                                  "fields": {
+                                                                    "OBJECTTYPE": "Player",
+                                                                    "VAR": {
+                                                                      "id": "jnE8p@J*!Hhx1q[Ns2HB"
+                                                                    }
+                                                                  },
+                                                                  "inputs": {
+                                                                    "OBJECT": {
+                                                                      "block": {
+                                                                        "type": "EventPlayer",
+                                                                        "id": "0rW^s)r~QDsC9K$:oq;L"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE-1": {
+                                                          "block": {
+                                                            "type": "Number",
+                                                            "id": "t?p0vo3JI7F5c}]SM;Fa",
+                                                            "fields": {
+                                                              "NUM": 12
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "DO": {
+                                                    "block": {
+                                                      "type": "SetVariable",
+                                                      "id": "`0epO$2e44.AKg~Q:5kX",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "variableReferenceBlock",
+                                                            "id": "Da{:QcX=}bnF4Nvz9q^e",
+                                                            "extraState": {
+                                                              "isObjectVar": true
+                                                            },
+                                                            "fields": {
+                                                              "OBJECTTYPE": "Player",
+                                                              "VAR": {
+                                                                "id": "%q[bMg,y3-P``?W@sP=!"
+                                                              }
+                                                            },
+                                                            "inputs": {
+                                                              "OBJECT": {
+                                                                "block": {
+                                                                  "type": "EventPlayer",
+                                                                  "id": "hb/^fOJOUYkwhU0fr6H3"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE-1": {
+                                                          "block": {
+                                                            "type": "Text",
+                                                            "id": "cX(te-;Um!NBPr7=3dTM",
+                                                            "fields": {
+                                                              "TEXT": "MOST WANTED"
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "next": {
+                                                        "block": {
+                                                          "type": "SetVariable",
+                                                          "id": "Nfjy2o)IBRjgMiBngB/6",
+                                                          "inputs": {
+                                                            "VALUE-0": {
+                                                              "block": {
+                                                                "type": "variableReferenceBlock",
+                                                                "id": "*4QsLtbGmn6h7UXX:BOc",
+                                                                "extraState": {
+                                                                  "isObjectVar": true
+                                                                },
+                                                                "fields": {
+                                                                  "OBJECTTYPE": "Player",
+                                                                  "VAR": {
+                                                                    "id": "GmDEH{2[t3E;,=/dbLE/"
+                                                                  }
+                                                                },
+                                                                "inputs": {
+                                                                  "OBJECT": {
+                                                                    "block": {
+                                                                      "type": "EventPlayer",
+                                                                      "id": "^IGqdd/aJ_)qhd`jA{DY"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "VALUE-1": {
+                                                              "block": {
+                                                                "type": "Number",
+                                                                "id": "YtQ|j;][YCbsiDuhXK#r",
+                                                                "fields": {
+                                                                  "NUM": 5
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "IF1": {
+                                                    "block": {
+                                                      "type": "GreaterThanEqualTo",
+                                                      "id": "Fjt/yH{Ci8f,Tc[HE*0D",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "GetVariable",
+                                                            "id": "p`_o5o?wzT2~3GF)WC-|",
+                                                            "inputs": {
+                                                              "VALUE-0": {
+                                                                "block": {
+                                                                  "type": "variableReferenceBlock",
+                                                                  "id": "Tv+#Sq@-lK.X[.gT!y`{",
+                                                                  "extraState": {
+                                                                    "isObjectVar": true
+                                                                  },
+                                                                  "fields": {
+                                                                    "OBJECTTYPE": "Player",
+                                                                    "VAR": {
+                                                                      "id": "jnE8p@J*!Hhx1q[Ns2HB"
+                                                                    }
+                                                                  },
+                                                                  "inputs": {
+                                                                    "OBJECT": {
+                                                                      "block": {
+                                                                        "type": "EventPlayer",
+                                                                        "id": ":SjS[A{stU;SX@4x;uF1"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE-1": {
+                                                          "block": {
+                                                            "type": "Number",
+                                                            "id": "CCB/;D_7e1;(*JKjH{ue",
+                                                            "fields": {
+                                                              "NUM": 9
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "DO1": {
+                                                    "block": {
+                                                      "type": "SetVariable",
+                                                      "id": "/vBnWYYfggUd},e[s32+",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "variableReferenceBlock",
+                                                            "id": "yV.c#T8QWbCPb50fG3)S",
+                                                            "extraState": {
+                                                              "isObjectVar": true
+                                                            },
+                                                            "fields": {
+                                                              "OBJECTTYPE": "Player",
+                                                              "VAR": {
+                                                                "id": "%q[bMg,y3-P``?W@sP=!"
+                                                              }
+                                                            },
+                                                            "inputs": {
+                                                              "OBJECT": {
+                                                                "block": {
+                                                                  "type": "EventPlayer",
+                                                                  "id": "wjqWozR?sbNK1vY1}V?_"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE-1": {
+                                                          "block": {
+                                                            "type": "Text",
+                                                            "id": "|SR^#0$3)E8s4!8(j~[m",
+                                                            "fields": {
+                                                              "TEXT": "HIGH RISK"
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "next": {
+                                                        "block": {
+                                                          "type": "SetVariable",
+                                                          "id": "rOfq:j|,dqeO;3hyBBm.",
+                                                          "inputs": {
+                                                            "VALUE-0": {
+                                                              "block": {
+                                                                "type": "variableReferenceBlock",
+                                                                "id": "1^EE;T:dK#m{r^Aqt0Wv",
+                                                                "extraState": {
+                                                                  "isObjectVar": true
+                                                                },
+                                                                "fields": {
+                                                                  "OBJECTTYPE": "Player",
+                                                                  "VAR": {
+                                                                    "id": "GmDEH{2[t3E;,=/dbLE/"
+                                                                  }
+                                                                },
+                                                                "inputs": {
+                                                                  "OBJECT": {
+                                                                    "block": {
+                                                                      "type": "EventPlayer",
+                                                                      "id": "tqCGAsr+M!vp[y;9+txX"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "VALUE-1": {
+                                                              "block": {
+                                                                "type": "Number",
+                                                                "id": "s{nt0E;Pv%kf(7W;2QcX",
+                                                                "fields": {
+                                                                  "NUM": 4
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "IF2": {
+                                                    "block": {
+                                                      "type": "GreaterThanEqualTo",
+                                                      "id": ":r*S5{~0nxT3!MeMD/Ma",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "GetVariable",
+                                                            "id": "xHFtPKVxOUQRl0ItL+o2",
+                                                            "inputs": {
+                                                              "VALUE-0": {
+                                                                "block": {
+                                                                  "type": "variableReferenceBlock",
+                                                                  "id": "WSzbv3`s|gQ_4xEs{Clh",
+                                                                  "extraState": {
+                                                                    "isObjectVar": true
+                                                                  },
+                                                                  "fields": {
+                                                                    "OBJECTTYPE": "Player",
+                                                                    "VAR": {
+                                                                      "id": "jnE8p@J*!Hhx1q[Ns2HB"
+                                                                    }
+                                                                  },
+                                                                  "inputs": {
+                                                                    "OBJECT": {
+                                                                      "block": {
+                                                                        "type": "EventPlayer",
+                                                                        "id": "uO5-d5tFJl3zD_;#N)Cn"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE-1": {
+                                                          "block": {
+                                                            "type": "Number",
+                                                            "id": "n=@.-w:3ur_Sv}d/@R~C",
+                                                            "fields": {
+                                                              "NUM": 6
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "DO2": {
+                                                    "block": {
+                                                      "type": "SetVariable",
+                                                      "id": "v,PE4^SO6BE{#,b|H[*x",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "variableReferenceBlock",
+                                                            "id": "w]nRVbAc64DB9dFz5BKY",
+                                                            "extraState": {
+                                                              "isObjectVar": true
+                                                            },
+                                                            "fields": {
+                                                              "OBJECTTYPE": "Player",
+                                                              "VAR": {
+                                                                "id": "%q[bMg,y3-P``?W@sP=!"
+                                                              }
+                                                            },
+                                                            "inputs": {
+                                                              "OBJECT": {
+                                                                "block": {
+                                                                  "type": "EventPlayer",
+                                                                  "id": "n-5oJ]g{J(~~{MDg7?_m"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE-1": {
+                                                          "block": {
+                                                            "type": "Text",
+                                                            "id": "k2}/h}X=FML/P`[GS(4L",
+                                                            "fields": {
+                                                              "TEXT": "MEDIUM RISK"
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "next": {
+                                                        "block": {
+                                                          "type": "SetVariable",
+                                                          "id": "/+Q%XEP=P|/$,2Mbz]f$",
+                                                          "inputs": {
+                                                            "VALUE-0": {
+                                                              "block": {
+                                                                "type": "variableReferenceBlock",
+                                                                "id": "-^ur4rvRScAeto_v+bXo",
+                                                                "extraState": {
+                                                                  "isObjectVar": true
+                                                                },
+                                                                "fields": {
+                                                                  "OBJECTTYPE": "Player",
+                                                                  "VAR": {
+                                                                    "id": "GmDEH{2[t3E;,=/dbLE/"
+                                                                  }
+                                                                },
+                                                                "inputs": {
+                                                                  "OBJECT": {
+                                                                    "block": {
+                                                                      "type": "EventPlayer",
+                                                                      "id": "!-V7(]LW!ruwUeLNrqtn"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "VALUE-1": {
+                                                              "block": {
+                                                                "type": "Number",
+                                                                "id": ":Lb2GfHn{|kTrTN8vn],",
+                                                                "fields": {
+                                                                  "NUM": 3
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "IF3": {
+                                                    "block": {
+                                                      "type": "GreaterThanEqualTo",
+                                                      "id": "q:UVfA)5mg~Tr=Q-I3yr",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "GetVariable",
+                                                            "id": "*?J`JkqK@MZnd1O~mFce",
+                                                            "inputs": {
+                                                              "VALUE-0": {
+                                                                "block": {
+                                                                  "type": "variableReferenceBlock",
+                                                                  "id": "M8,y=U2-!a-XC.7`(E6T",
+                                                                  "extraState": {
+                                                                    "isObjectVar": true
+                                                                  },
+                                                                  "fields": {
+                                                                    "OBJECTTYPE": "Player",
+                                                                    "VAR": {
+                                                                      "id": "jnE8p@J*!Hhx1q[Ns2HB"
+                                                                    }
+                                                                  },
+                                                                  "inputs": {
+                                                                    "OBJECT": {
+                                                                      "block": {
+                                                                        "type": "EventPlayer",
+                                                                        "id": "co7EBJJ/.H`c04jQH?6b"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE-1": {
+                                                          "block": {
+                                                            "type": "Number",
+                                                            "id": "0kkn6ec/mvqvRUt*{*8G",
+                                                            "fields": {
+                                                              "NUM": 3
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "DO3": {
+                                                    "block": {
+                                                      "type": "SetVariable",
+                                                      "id": "=}HXg9A*C`1/VxNJy~(N",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "variableReferenceBlock",
+                                                            "id": "._Z/cR;D5m=CDh{ZoS@$",
+                                                            "extraState": {
+                                                              "isObjectVar": true
+                                                            },
+                                                            "fields": {
+                                                              "OBJECTTYPE": "Player",
+                                                              "VAR": {
+                                                                "id": "%q[bMg,y3-P``?W@sP=!"
+                                                              }
+                                                            },
+                                                            "inputs": {
+                                                              "OBJECT": {
+                                                                "block": {
+                                                                  "type": "EventPlayer",
+                                                                  "id": "b-IU`lW4LAx-XQv5PsQN"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE-1": {
+                                                          "block": {
+                                                            "type": "Text",
+                                                            "id": "l`aL^K1r0zIDV)~`i^%a",
+                                                            "fields": {
+                                                              "TEXT": "LOW RISK"
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "next": {
+                                                        "block": {
+                                                          "type": "SetVariable",
+                                                          "id": "$h#IvS|#I_JTTV0,nk+_",
+                                                          "inputs": {
+                                                            "VALUE-0": {
+                                                              "block": {
+                                                                "type": "variableReferenceBlock",
+                                                                "id": "!eJiy3[oXljf/.?Oh*lg",
+                                                                "extraState": {
+                                                                  "isObjectVar": true
+                                                                },
+                                                                "fields": {
+                                                                  "OBJECTTYPE": "Player",
+                                                                  "VAR": {
+                                                                    "id": "GmDEH{2[t3E;,=/dbLE/"
+                                                                  }
+                                                                },
+                                                                "inputs": {
+                                                                  "OBJECT": {
+                                                                    "block": {
+                                                                      "type": "EventPlayer",
+                                                                      "id": "fRPm/FO@f(wR-9X7n_jR"
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "VALUE-1": {
+                                                              "block": {
+                                                                "type": "Number",
+                                                                "id": "u;7=AN[_3*8fM!Ac/d@B",
+                                                                "fields": {
+                                                                  "NUM": 2
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "next": {
+                                                  "block": {
+                                                    "type": "subroutineInstanceBlock",
+                                                    "id": "LyY7AH{aq^tV*whM04?n",
+                                                    "extraState": {
+                                                      "subroutineName": "updatePlayerStreakMessage",
+                                                      "parameters": []
+                                                    },
+                                                    "fields": {
+                                                      "SUBROUTINE_NAME": "updatePlayerStreakMessage"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "next": {
+                                    "block": {
+                                      "type": "ruleBlock",
+                                      "id": "MiitA-1Jb$V|yY9DFuZt",
+                                      "extraState": {
+                                        "isOngoingEvent": true
+                                      },
+                                      "fields": {
+                                        "NAME": "spotOutlaw",
+                                        "EVENTTYPE": "Ongoing",
+                                        "OBJECTTYPE": "Player"
+                                      },
+                                      "inputs": {
+                                        "CONDITIONS": {
+                                          "block": {
+                                            "type": "conditionBlock",
+                                            "id": "twf|bto`#}GwSl~7@vLc",
+                                            "inputs": {
+                                              "CONDITION": {
+                                                "block": {
+                                                  "type": "Equals",
+                                                  "id": "u_Ik9^)IRNY;Wr0UfQo?",
+                                                  "inputs": {
+                                                    "VALUE-0": {
+                                                      "block": {
+                                                        "type": "GetVariable",
+                                                        "id": "jeTCkx]mtvBN#yCqc5aI",
+                                                        "inputs": {
+                                                          "VALUE-0": {
+                                                            "block": {
+                                                              "type": "variableReferenceBlock",
+                                                              "id": "he/l%N-09Wu#QIwjM*+6",
+                                                              "extraState": {
+                                                                "isObjectVar": true
+                                                              },
+                                                              "fields": {
+                                                                "OBJECTTYPE": "Player",
+                                                                "VAR": {
+                                                                  "id": "tb76fgFxj|xFI[kECrAL"
+                                                                }
+                                                              },
+                                                              "inputs": {
+                                                                "OBJECT": {
+                                                                  "block": {
+                                                                    "type": "EventPlayer",
+                                                                    "id": "N5TB!wE)IIRy?6q@qV}."
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "VALUE-1": {
+                                                      "block": {
+                                                        "type": "Boolean",
+                                                        "id": "]+K-uXxy|_2[O70.)r_V",
+                                                        "fields": {
+                                                          "BOOL": "TRUE"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "ACTIONS": {
+                                          "block": {
+                                            "type": "While",
+                                            "id": "#B2.;QwmN.%r`_Fk,Nb0",
+                                            "inputs": {
+                                              "VALUE-0": {
+                                                "block": {
+                                                  "type": "Equals",
+                                                  "id": "PD{Nf3eojJK65CfduA`u",
+                                                  "inputs": {
+                                                    "VALUE-0": {
+                                                      "block": {
+                                                        "type": "GetVariable",
+                                                        "id": "Y_]w[0f`P*253(u%id15",
+                                                        "inputs": {
+                                                          "VALUE-0": {
+                                                            "block": {
+                                                              "type": "variableReferenceBlock",
+                                                              "id": "2XO@0p#4,_jbTSkyY#8:",
+                                                              "extraState": {
+                                                                "isObjectVar": true
+                                                              },
+                                                              "fields": {
+                                                                "OBJECTTYPE": "Player",
+                                                                "VAR": {
+                                                                  "id": "tb76fgFxj|xFI[kECrAL"
+                                                                }
+                                                              },
+                                                              "inputs": {
+                                                                "OBJECT": {
+                                                                  "block": {
+                                                                    "type": "EventPlayer",
+                                                                    "id": "ow}EptoB^D]N|MgEE//+"
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    },
+                                                    "VALUE-1": {
+                                                      "block": {
+                                                        "type": "Boolean",
+                                                        "id": "f[]Wg7BZ%FUGWh$h0]WJ",
+                                                        "fields": {
+                                                          "BOOL": "TRUE"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              },
+                                              "DO": {
+                                                "block": {
+                                                  "type": "SpotTarget",
+                                                  "id": "#aOkin?QxX{1hHV4?+)I",
+                                                  "inputs": {
+                                                    "VALUE-0": {
+                                                      "block": {
+                                                        "type": "EventPlayer",
+                                                        "id": "[FoaT[{+Q/QZ6GzjIt%6"
+                                                      }
+                                                    },
+                                                    "VALUE-1": {
+                                                      "block": {
+                                                        "type": "Multiply",
+                                                        "id": "Os~*g2r;4yTtS0V@:Z@m",
+                                                        "inputs": {
+                                                          "VALUE-0": {
+                                                            "block": {
+                                                              "type": "GetVariable",
+                                                              "id": "UzZu%NAVXjE0.htaR=@n",
+                                                              "inputs": {
+                                                                "VALUE-0": {
+                                                                  "block": {
+                                                                    "type": "variableReferenceBlock",
+                                                                    "id": "rd9co|Zvr@Y892Z;h1+C",
+                                                                    "extraState": {
+                                                                      "isObjectVar": true
+                                                                    },
+                                                                    "fields": {
+                                                                      "OBJECTTYPE": "Player",
+                                                                      "VAR": {
+                                                                        "id": "GmDEH{2[t3E;,=/dbLE/"
+                                                                      }
+                                                                    },
+                                                                    "inputs": {
+                                                                      "OBJECT": {
+                                                                        "block": {
+                                                                          "type": "EventPlayer",
+                                                                          "id": "-:S7Mf4*,*.2#{ig:gT^"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "VALUE-1": {
+                                                            "block": {
+                                                              "type": "Number",
+                                                              "id": "jJ6#SukQ`aCHHtycwl:b",
+                                                              "fields": {
+                                                                "NUM": 2
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  },
+                                                  "next": {
+                                                    "block": {
+                                                      "type": "Wait",
+                                                      "id": "Nj`Q9#7tw{vXu{ggVsC^",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "Number",
+                                                            "id": ";K9!]~h9r(8I1K|G(#LQ",
+                                                            "fields": {
+                                                              "NUM": 10
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "next": {
+                                              "block": {
+                                                "type": "UnspotTarget",
+                                                "id": "jr^Z2/`xP%)GyU31B6:o",
+                                                "inputs": {
+                                                  "VALUE-0": {
+                                                    "block": {
+                                                      "type": "EventPlayer",
+                                                      "id": "8=#Y[hi^|X}[A@m8#*5]"
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "next": {
+                                        "block": {
+                                          "type": "ruleBlock",
+                                          "id": "s:5Fit](mwpVeZkz(R..",
+                                          "extraState": {
+                                            "isOngoingEvent": false
+                                          },
+                                          "fields": {
+                                            "NAME": "addPointsForKill",
+                                            "EVENTTYPE": "OnPlayerEarnedKill"
+                                          },
+                                          "inputs": {
+                                            "CONDITIONS": {
+                                              "block": {
+                                                "type": "conditionBlock",
+                                                "id": "vKJK$0-9*]`w5HBOk|mS",
+                                                "inputs": {
+                                                  "CONDITION": {
+                                                    "block": {
+                                                      "type": "Not",
+                                                      "id": "dNWEQq}Pg8^I_7O86swT",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "Equals",
+                                                            "id": "2EaV;nluhlBA1#Q]q4zn",
+                                                            "inputs": {
+                                                              "VALUE-0": {
+                                                                "block": {
+                                                                  "type": "EventPlayer",
+                                                                  "id": "h.dw/rMVOyAX:,WB[JZg"
+                                                                }
+                                                              },
+                                                              "VALUE-1": {
+                                                                "block": {
+                                                                  "type": "EventOtherPlayer",
+                                                                  "id": "qp[I)t7CRVv*pc!YTof#"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            },
+                                            "ACTIONS": {
+                                              "block": {
+                                                "type": "SetGamemodeScore",
+                                                "id": "^v|guNear;3jEu,hSYG,",
+                                                "inputs": {
+                                                  "VALUE-0": {
+                                                    "block": {
+                                                      "type": "EventPlayer",
+                                                      "id": ":+x|0-]BVcK)h[tHdIRU"
+                                                    }
+                                                  },
+                                                  "VALUE-1": {
+                                                    "block": {
+                                                      "type": "Add",
+                                                      "id": "/dLyASo[?*?QeeQ-]=H:",
+                                                      "inputs": {
+                                                        "VALUE-0": {
+                                                          "block": {
+                                                            "type": "GetGamemodeScore",
+                                                            "id": "BX%!%:CalkW^}#d!Bo,A",
+                                                            "inputs": {
+                                                              "VALUE-0": {
+                                                                "block": {
+                                                                  "type": "EventPlayer",
+                                                                  "id": "cMm%4*QQ=h}m#N,E+CI5"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        },
+                                                        "VALUE-1": {
+                                                          "block": {
+                                                            "type": "Multiply",
+                                                            "id": "PR_|T{(:M_TwW.IDV9`n",
+                                                            "inputs": {
+                                                              "VALUE-0": {
+                                                                "block": {
+                                                                  "type": "GetVariable",
+                                                                  "id": "1*g;:*@ji:_Ov4}Fl[R,",
+                                                                  "inputs": {
+                                                                    "VALUE-0": {
+                                                                      "block": {
+                                                                        "type": "variableReferenceBlock",
+                                                                        "id": ";0J{]Q~b72solb?)gFTl",
+                                                                        "extraState": {
+                                                                          "isObjectVar": true
+                                                                        },
+                                                                        "fields": {
+                                                                          "OBJECTTYPE": "Player",
+                                                                          "VAR": {
+                                                                            "id": "GmDEH{2[t3E;,=/dbLE/"
+                                                                          }
+                                                                        },
+                                                                        "inputs": {
+                                                                          "OBJECT": {
+                                                                            "block": {
+                                                                              "type": "EventOtherPlayer",
+                                                                              "id": "9XI=[.2m#U,e{Jc/~RG%"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              },
+                                                              "VALUE-1": {
+                                                                "block": {
+                                                                  "type": "GetVariable",
+                                                                  "id": ",C^xB`X|qK;m4E([I7GW",
+                                                                  "inputs": {
+                                                                    "VALUE-0": {
+                                                                      "block": {
+                                                                        "type": "variableReferenceBlock",
+                                                                        "id": "$Ki2zaC.CqBJ5/lK[t+q",
+                                                                        "extraState": {
+                                                                          "isObjectVar": false
+                                                                        },
+                                                                        "fields": {
+                                                                          "OBJECTTYPE": "Global",
+                                                                          "VAR": {
+                                                                            "id": "DP.T-!KCfq2j7#_e@m=?"
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "next": {
+                                                  "block": {
+                                                    "type": "If",
+                                                    "id": "7b:[=FXunJd.A[c|oDaJ",
+                                                    "extraState": {},
+                                                    "inputs": {
+                                                      "VALUE-0": {
+                                                        "block": {
+                                                          "type": "Equals",
+                                                          "id": "SL`U%;[Ya3b~d5RQ$vHV",
+                                                          "inputs": {
+                                                            "VALUE-0": {
+                                                              "block": {
+                                                                "type": "GetVariable",
+                                                                "id": "gSH_Em_;)XGRdk7e[zwz",
+                                                                "inputs": {
+                                                                  "VALUE-0": {
+                                                                    "block": {
+                                                                      "type": "variableReferenceBlock",
+                                                                      "id": "}zUjd/oN^*DT,w$Ut[oB",
+                                                                      "extraState": {
+                                                                        "isObjectVar": true
+                                                                      },
+                                                                      "fields": {
+                                                                        "OBJECTTYPE": "Player",
+                                                                        "VAR": {
+                                                                          "id": "tb76fgFxj|xFI[kECrAL"
+                                                                        }
+                                                                      },
+                                                                      "inputs": {
+                                                                        "OBJECT": {
+                                                                          "block": {
+                                                                            "type": "EventOtherPlayer",
+                                                                            "id": "kL?(Z%)gUc`8Ur,8)G=$"
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            },
+                                                            "VALUE-1": {
+                                                              "block": {
+                                                                "type": "Boolean",
+                                                                "id": "S4[VfLL3SJRkVY/K={.+",
+                                                                "fields": {
+                                                                  "BOOL": "TRUE"
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      },
+                                                      "DO": {
+                                                        "block": {
+                                                          "type": "SetInventoryAmmo",
+                                                          "id": "u|$5$3h*,hl7;[:C]525",
+                                                          "inputs": {
+                                                            "VALUE-0": {
+                                                              "block": {
+                                                                "type": "EventPlayer",
+                                                                "id": "S2xS_}e]^@/BR4Fremx,"
+                                                              }
+                                                            },
+                                                            "VALUE-1": {
+                                                              "block": {
+                                                                "type": "InventorySlotsItem",
+                                                                "id": "fyH-{9@)3m?bLuKKj-S-",
+                                                                "fields": {
+                                                                  "VALUE-0": "InventorySlots",
+                                                                  "VALUE-1": "PrimaryWeapon"
+                                                                }
+                                                              }
+                                                            },
+                                                            "VALUE-2": {
+                                                              "block": {
+                                                                "type": "Add",
+                                                                "id": "[E@+Rzp0B*QB{)[Ya/BS",
+                                                                "inputs": {
+                                                                  "VALUE-0": {
+                                                                    "block": {
+                                                                      "type": "GetInventoryAmmo",
+                                                                      "id": ",j``T`TOE^STJMCx?E45",
+                                                                      "inputs": {
+                                                                        "VALUE-0": {
+                                                                          "block": {
+                                                                            "type": "EventPlayer",
+                                                                            "id": "a8lB_KX1OwRO=}qsVuHV"
+                                                                          }
+                                                                        },
+                                                                        "VALUE-1": {
+                                                                          "block": {
+                                                                            "type": "InventorySlotsItem",
+                                                                            "id": "d#:|!+2:h3z8MaDUSlD2",
+                                                                            "fields": {
+                                                                              "VALUE-0": "InventorySlots",
+                                                                              "VALUE-1": "PrimaryWeapon"
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  "VALUE-1": {
+                                                                    "block": {
+                                                                      "type": "Number",
+                                                                      "id": "u)HhR%!ds0l6xgRa!V4D",
+                                                                      "fields": {
+                                                                        "NUM": 30
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "next": {
+                                                            "block": {
+                                                              "type": "ShowEventGameModeMessage",
+                                                              "id": "dsr,z+Ch8If2l:8k7UjM",
+                                                              "inputs": {
+                                                                "VALUE-0": {
+                                                                  "block": {
+                                                                    "type": "Message",
+                                                                    "id": "0ZEFu(4?ZI|*LCsXS9Y1",
+                                                                    "inputs": {
+                                                                      "VALUE-0": {
+                                                                        "block": {
+                                                                          "type": "Text",
+                                                                          "id": "{Q^yKEN@.I~Ufe@W$Q#Z",
+                                                                          "fields": {
+                                                                            "TEXT": "{} X BOUNTY CLAIMED ON {} BY {}"
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "VALUE-1": {
+                                                                        "block": {
+                                                                          "type": "GetVariable",
+                                                                          "id": "669C(HRfk_gWyKRP2uQm",
+                                                                          "inputs": {
+                                                                            "VALUE-0": {
+                                                                              "block": {
+                                                                                "type": "variableReferenceBlock",
+                                                                                "id": "6f7#e)7;r84P-W(a_n=`",
+                                                                                "extraState": {
+                                                                                  "isObjectVar": true
+                                                                                },
+                                                                                "fields": {
+                                                                                  "OBJECTTYPE": "Player",
+                                                                                  "VAR": {
+                                                                                    "id": "GmDEH{2[t3E;,=/dbLE/"
+                                                                                  }
+                                                                                },
+                                                                                "inputs": {
+                                                                                  "OBJECT": {
+                                                                                    "block": {
+                                                                                      "type": "EventOtherPlayer",
+                                                                                      "id": "e@n919S.;KA=-n3Kr~,v"
+                                                                                    }
+                                                                                  }
+                                                                                }
+                                                                              }
+                                                                            }
+                                                                          }
+                                                                        }
+                                                                      },
+                                                                      "VALUE-2": {
+                                                                        "block": {
+                                                                          "type": "EventOtherPlayer",
+                                                                          "id": "hRSs[-SQ;ppR`h|HJySS"
+                                                                        }
+                                                                      },
+                                                                      "VALUE-3": {
+                                                                        "block": {
+                                                                          "type": "EventPlayer",
+                                                                          "id": "oxMf1E@;M5KZk;c1cdK6"
+                                                                        }
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              }
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "type": "subroutineBlock",
+        "id": "u.}[!-BD(OHI+#mTFx,@",
+        "x": 1569,
+        "y": 2587,
+        "extraState": {
+          "subroutineName": "updatePlayerStreakMessage",
+          "parameters": []
+        },
+        "fields": {
+          "SUBROUTINE_NAME": "updatePlayerStreakMessage"
+        },
+        "inputs": {
+          "ACTIONS": {
+            "block": {
+              "type": "If",
+              "id": "Q^35c6?N4:qzKqR_:3R?",
+              "extraState": {
+                "elseif": 0,
+                "else": 1
+              },
+              "inputs": {
+                "VALUE-0": {
+                  "block": {
+                    "type": "Equals",
+                    "id": "`Lzn=v}~jZl|lK[e%):M",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "GetVariable",
+                          "id": "DGt+Do#jUey!YO(v]vxb",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "variableReferenceBlock",
+                                "id": "e.XV`ZsfAv(N3MPkaf/7",
+                                "extraState": {
+                                  "isObjectVar": true
+                                },
+                                "fields": {
+                                  "OBJECTTYPE": "Player",
+                                  "VAR": {
+                                    "id": "tb76fgFxj|xFI[kECrAL"
+                                  }
+                                },
+                                "inputs": {
+                                  "OBJECT": {
+                                    "block": {
+                                      "type": "EventPlayer",
+                                      "id": "3lI^7kpPptDi3#[[Cc`X"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "VALUE-1": {
+                        "block": {
+                          "type": "Boolean",
+                          "id": "=DG@IX4^U4Ss@Y!#A@YH",
+                          "fields": {
+                            "BOOL": "TRUE"
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "DO": {
+                  "block": {
+                    "type": "DisplayCustomNotificationMessage",
+                    "id": "am_?2gEonjjo|D:+|tPF",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "Message",
+                          "id": "ReoNEV:v#6x[?l.l2QS|",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "Text",
+                                "id": "(Q!m,ykbX~Se*)1]JEq[",
+                                "fields": {
+                                  "TEXT": "YOU ARE AN OUTLAW! KILLSTREAK {}"
+                                }
+                              }
+                            },
+                            "VALUE-1": {
+                              "block": {
+                                "type": "GetVariable",
+                                "id": "[=vlP)-qRqtdCst?UOh4",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "variableReferenceBlock",
+                                      "id": "g[;)u*be#CC(20rIzLje",
+                                      "extraState": {
+                                        "isObjectVar": true
+                                      },
+                                      "fields": {
+                                        "OBJECTTYPE": "Player",
+                                        "VAR": {
+                                          "id": "jnE8p@J*!Hhx1q[Ns2HB"
+                                        }
+                                      },
+                                      "inputs": {
+                                        "OBJECT": {
+                                          "block": {
+                                            "type": "EventPlayer",
+                                            "id": "z`#FJt+_A!USZL=+e@)0"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "VALUE-1": {
+                        "block": {
+                          "type": "CustomMessagesItem",
+                          "id": "1Um$O6tMMnF]692C)(g2",
+                          "fields": {
+                            "VALUE-0": "CustomMessages",
+                            "VALUE-1": "HeaderText"
+                          }
+                        }
+                      },
+                      "VALUE-2": {
+                        "block": {
+                          "type": "Number",
+                          "id": "8|-ySWG+9(HEI?E][dJ$",
+                          "fields": {
+                            "NUM": -1
+                          }
+                        }
+                      },
+                      "VALUE-3": {
+                        "block": {
+                          "type": "EventPlayer",
+                          "id": "QHvG?G$:i2K`t0Gcew9="
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "DisplayCustomNotificationMessage",
+                        "id": "G|,T#qK*,Ffn(Bnll}+i",
+                        "inputs": {
+                          "VALUE-0": {
+                            "block": {
+                              "type": "Message",
+                              "id": "KS?{#8V-nx|)oOR!]:_Z",
+                              "inputs": {
+                                "VALUE-0": {
+                                  "block": {
+                                    "type": "Text",
+                                    "id": "D?Bt4V#V1uc*Pn9N*i,t",
+                                    "fields": {
+                                      "TEXT": "{} POINTS PER KILL"
+                                    }
+                                  }
+                                },
+                                "VALUE-1": {
+                                  "block": {
+                                    "type": "GetVariable",
+                                    "id": "?wJP/hv,CPm+rEd~|Ho`",
+                                    "inputs": {
+                                      "VALUE-0": {
+                                        "block": {
+                                          "type": "variableReferenceBlock",
+                                          "id": "bEyZ6i*+7P(wIca9FX`@",
+                                          "extraState": {
+                                            "isObjectVar": false
+                                          },
+                                          "fields": {
+                                            "OBJECTTYPE": "Global",
+                                            "VAR": {
+                                              "id": "DP.T-!KCfq2j7#_e@m=?"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "VALUE-1": {
+                            "block": {
+                              "type": "CustomMessagesItem",
+                              "id": "+j,K`V-0app]PXWp.hI?",
+                              "fields": {
+                                "VALUE-0": "CustomMessages",
+                                "VALUE-1": "MessageText1"
+                              }
+                            }
+                          },
+                          "VALUE-2": {
+                            "block": {
+                              "type": "Number",
+                              "id": "d7*V`M9XSE%ctnKei01@",
+                              "fields": {
+                                "NUM": -1
+                              }
+                            }
+                          },
+                          "VALUE-3": {
+                            "block": {
+                              "type": "EventPlayer",
+                              "id": ".vCtbIb.vlS.nX`;O/]+"
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "DisplayCustomNotificationMessage",
+                            "id": "}o2b(?%!GKNV_T}!-qJe",
+                            "inputs": {
+                              "VALUE-0": {
+                                "block": {
+                                  "type": "Message",
+                                  "id": "MMV_iN:?v7N]%-,pVarl",
+                                  "inputs": {
+                                    "VALUE-0": {
+                                      "block": {
+                                        "type": "Text",
+                                        "id": "qV?JY)!4gEN7F)_ju}Kt",
+                                        "fields": {
+                                          "TEXT": "WANTED LEVEL: {}"
+                                        }
+                                      }
+                                    },
+                                    "VALUE-1": {
+                                      "block": {
+                                        "type": "GetVariable",
+                                        "id": "*GaL##2+,q9hga@%#Hrm",
+                                        "inputs": {
+                                          "VALUE-0": {
+                                            "block": {
+                                              "type": "variableReferenceBlock",
+                                              "id": "c@)A#OsfYhS]*:k,r!}8",
+                                              "extraState": {
+                                                "isObjectVar": true
+                                              },
+                                              "fields": {
+                                                "OBJECTTYPE": "Player",
+                                                "VAR": {
+                                                  "id": "%q[bMg,y3-P``?W@sP=!"
+                                                }
+                                              },
+                                              "inputs": {
+                                                "OBJECT": {
+                                                  "block": {
+                                                    "type": "EventPlayer",
+                                                    "id": "U)443fKndVJlmr/Js|Z3"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "VALUE-1": {
+                                "block": {
+                                  "type": "CustomMessagesItem",
+                                  "id": "dyK+MN0gTY:{U(]KTNRX",
+                                  "fields": {
+                                    "VALUE-0": "CustomMessages",
+                                    "VALUE-1": "MessageText2"
+                                  }
+                                }
+                              },
+                              "VALUE-2": {
+                                "block": {
+                                  "type": "Number",
+                                  "id": "d(UuNyPCIsmz-f(igtRi",
+                                  "fields": {
+                                    "NUM": -1
+                                  }
+                                }
+                              },
+                              "VALUE-3": {
+                                "block": {
+                                  "type": "EventPlayer",
+                                  "id": "V]-|DpjEtAR#wPJ/}k=o"
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "type": "DisplayCustomNotificationMessage",
+                                "id": "{DLW?dT?#]^A)oxVJy3*",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "Message",
+                                      "id": "O9jj#l:Q=4hIMudIl-1/",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "Text",
+                                            "id": "u*6|{;2o(?:kc)U%~+10",
+                                            "fields": {
+                                              "TEXT": "BOUNTY ON YOU IS MULTIPLIED BY {}"
+                                            }
+                                          }
+                                        },
+                                        "VALUE-1": {
+                                          "block": {
+                                            "type": "GetVariable",
+                                            "id": "v/toC{X:k0N4F+-3J3*Y",
+                                            "inputs": {
+                                              "VALUE-0": {
+                                                "block": {
+                                                  "type": "variableReferenceBlock",
+                                                  "id": "0m5={dn6k=[6A5?ig2G~",
+                                                  "extraState": {
+                                                    "isObjectVar": true
+                                                  },
+                                                  "fields": {
+                                                    "OBJECTTYPE": "Player",
+                                                    "VAR": {
+                                                      "id": "GmDEH{2[t3E;,=/dbLE/"
+                                                    }
+                                                  },
+                                                  "inputs": {
+                                                    "OBJECT": {
+                                                      "block": {
+                                                        "type": "EventPlayer",
+                                                        "id": "hie^{=.qd}F9kb0RG#6F"
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "VALUE-1": {
+                                    "block": {
+                                      "type": "CustomMessagesItem",
+                                      "id": "{,-S.fZ1Te+(]w@aYGm@",
+                                      "fields": {
+                                        "VALUE-0": "CustomMessages",
+                                        "VALUE-1": "MessageText3"
+                                      }
+                                    }
+                                  },
+                                  "VALUE-2": {
+                                    "block": {
+                                      "type": "Number",
+                                      "id": "y0sN{(^c@jbP+}sL1-/I",
+                                      "fields": {
+                                        "NUM": -1
+                                      }
+                                    }
+                                  },
+                                  "VALUE-3": {
+                                    "block": {
+                                      "type": "EventPlayer",
+                                      "id": "Hx+MEhhHuMJUrWJ9qP@="
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                "ELSE": {
+                  "block": {
+                    "type": "DisplayCustomNotificationMessage",
+                    "id": "5uD6snl|:c/KeI_dn,@q",
+                    "inputs": {
+                      "VALUE-0": {
+                        "block": {
+                          "type": "Message",
+                          "id": "?Xa~;b[LxmCCUv)-1%a9",
+                          "inputs": {
+                            "VALUE-0": {
+                              "block": {
+                                "type": "Text",
+                                "id": "EKEBap~U%TJ,e2KY$.OE",
+                                "fields": {
+                                  "TEXT": "KILLSTREAK: {}"
+                                }
+                              }
+                            },
+                            "VALUE-1": {
+                              "block": {
+                                "type": "GetVariable",
+                                "id": "jcC!#)FXmPE}(u+-(=sV",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "variableReferenceBlock",
+                                      "id": "K6;#476xS7ApX=nL%MIK",
+                                      "extraState": {
+                                        "isObjectVar": true
+                                      },
+                                      "fields": {
+                                        "OBJECTTYPE": "Player",
+                                        "VAR": {
+                                          "id": "jnE8p@J*!Hhx1q[Ns2HB"
+                                        }
+                                      },
+                                      "inputs": {
+                                        "OBJECT": {
+                                          "block": {
+                                            "type": "EventPlayer",
+                                            "id": "7FsCKg{chxgM?6}FIVVj"
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "VALUE-1": {
+                        "block": {
+                          "type": "CustomMessagesItem",
+                          "id": "cbO+%HJgY%(-=Umo6]/2",
+                          "fields": {
+                            "VALUE-0": "CustomMessages",
+                            "VALUE-1": "HeaderText"
+                          }
+                        }
+                      },
+                      "VALUE-2": {
+                        "block": {
+                          "type": "Number",
+                          "id": "#.=dwxL,f(hsH|l9,oZ0",
+                          "fields": {
+                            "NUM": -1
+                          }
+                        }
+                      },
+                      "VALUE-3": {
+                        "block": {
+                          "type": "EventPlayer",
+                          "id": "I@[AmG@7cQ$vQK/b7Cd{"
+                        }
+                      }
+                    },
+                    "next": {
+                      "block": {
+                        "type": "DisplayCustomNotificationMessage",
+                        "id": "6|Ixr$qh2P_.W[w4oeMk",
+                        "inputs": {
+                          "VALUE-0": {
+                            "block": {
+                              "type": "Message",
+                              "id": "ZprngBAza~GANDER#Gla",
+                              "inputs": {
+                                "VALUE-0": {
+                                  "block": {
+                                    "type": "Text",
+                                    "id": "Z-t4jx@hlXQcmwu2x+/]",
+                                    "fields": {
+                                      "TEXT": "{} POINTS PER KILL"
+                                    }
+                                  }
+                                },
+                                "VALUE-1": {
+                                  "block": {
+                                    "type": "GetVariable",
+                                    "id": "sg@@I)k!8`q|yK_z)$~J",
+                                    "inputs": {
+                                      "VALUE-0": {
+                                        "block": {
+                                          "type": "variableReferenceBlock",
+                                          "id": "EWMOVJISn4mt~#FY;lf-",
+                                          "extraState": {
+                                            "isObjectVar": false
+                                          },
+                                          "fields": {
+                                            "OBJECTTYPE": "Global",
+                                            "VAR": {
+                                              "id": "DP.T-!KCfq2j7#_e@m=?"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "VALUE-1": {
+                            "block": {
+                              "type": "CustomMessagesItem",
+                              "id": "7,Y]q3Va3igy=cLr{kAF",
+                              "fields": {
+                                "VALUE-0": "CustomMessages",
+                                "VALUE-1": "MessageText1"
+                              }
+                            }
+                          },
+                          "VALUE-2": {
+                            "block": {
+                              "type": "Number",
+                              "id": "o1zNpAJwy}NZ{^6+Pa-n",
+                              "fields": {
+                                "NUM": -1
+                              }
+                            }
+                          },
+                          "VALUE-3": {
+                            "block": {
+                              "type": "EventPlayer",
+                              "id": "[1W+9EG{7]c0LZ]y=.aI"
+                            }
+                          }
+                        },
+                        "next": {
+                          "block": {
+                            "type": "DisplayCustomNotificationMessage",
+                            "id": "!bFLzMs!Ij0h{0J/%E;l",
+                            "inputs": {
+                              "VALUE-0": {
+                                "block": {
+                                  "type": "Message",
+                                  "id": "*/k7NK1336v9,%Rjf^_8",
+                                  "inputs": {
+                                    "VALUE-0": {
+                                      "block": {
+                                        "type": "Text",
+                                        "id": "dUB$eUMw!hT8djK)b`zb",
+                                        "fields": {
+                                          "TEXT": "WANTED LEVEL: {}"
+                                        }
+                                      }
+                                    },
+                                    "VALUE-1": {
+                                      "block": {
+                                        "type": "GetVariable",
+                                        "id": "70LaSOmyBsV`Zczt,k((",
+                                        "inputs": {
+                                          "VALUE-0": {
+                                            "block": {
+                                              "type": "variableReferenceBlock",
+                                              "id": "=ewWG$t/n`^vr[%WYL0$",
+                                              "extraState": {
+                                                "isObjectVar": true
+                                              },
+                                              "fields": {
+                                                "OBJECTTYPE": "Player",
+                                                "VAR": {
+                                                  "id": "%q[bMg,y3-P``?W@sP=!"
+                                                }
+                                              },
+                                              "inputs": {
+                                                "OBJECT": {
+                                                  "block": {
+                                                    "type": "EventPlayer",
+                                                    "id": "_/_Uzbb#|%A~vf.KJCh6"
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  }
+                                }
+                              },
+                              "VALUE-1": {
+                                "block": {
+                                  "type": "CustomMessagesItem",
+                                  "id": "6)Q]d_bC]9PNI[VBrz6A",
+                                  "fields": {
+                                    "VALUE-0": "CustomMessages",
+                                    "VALUE-1": "MessageText2"
+                                  }
+                                }
+                              },
+                              "VALUE-2": {
+                                "block": {
+                                  "type": "Number",
+                                  "id": "w%TeEWvhq^?P@U:HA((K",
+                                  "fields": {
+                                    "NUM": -1
+                                  }
+                                }
+                              },
+                              "VALUE-3": {
+                                "block": {
+                                  "type": "EventPlayer",
+                                  "id": "/G:38^!`0~Q],Y[bgJ;s"
+                                }
+                              }
+                            },
+                            "next": {
+                              "block": {
+                                "type": "DisplayCustomNotificationMessage",
+                                "id": ".O=d$k~V`.f{UM$-$Hq0",
+                                "inputs": {
+                                  "VALUE-0": {
+                                    "block": {
+                                      "type": "Message",
+                                      "id": "WR{YwJ*Q2a_.;1qxgl7u",
+                                      "inputs": {
+                                        "VALUE-0": {
+                                          "block": {
+                                            "type": "Text",
+                                            "id": ";X(VIZupxfxmhs=pj=?N",
+                                            "fields": {
+                                              "TEXT": "KILL OUTLAWS TO CLAIM BOUNTY MULTIPLIER!"
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  },
+                                  "VALUE-1": {
+                                    "block": {
+                                      "type": "CustomMessagesItem",
+                                      "id": "k8}NK`;7C.0+JbShU+I:",
+                                      "fields": {
+                                        "VALUE-0": "CustomMessages",
+                                        "VALUE-1": "MessageText3"
+                                      }
+                                    }
+                                  },
+                                  "VALUE-2": {
+                                    "block": {
+                                      "type": "Number",
+                                      "id": "z!Qsy0b{ifKionY`;O21",
+                                      "fields": {
+                                        "NUM": -1
+                                      }
+                                    }
+                                  },
+                                  "VALUE-3": {
+                                    "block": {
+                                      "type": "EventPlayer",
+                                      "id": ";?p_ed#,N4d|,m/A:T/Z"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "variables": [
+    {
+      "name": "pointsPerKill",
+      "id": "DP.T-!KCfq2j7#_e@m=?",
+      "type": "Global"
+    },
+    {
+      "name": " ",
+      "id": "gF{z34Fm-P#XrzBetn3n"
+    },
+    {
+      "name": "killStreak",
+      "id": "jnE8p@J*!Hhx1q[Ns2HB",
+      "type": "Player"
+    },
+    {
+      "name": "Outlaw",
+      "id": "tb76fgFxj|xFI[kECrAL",
+      "type": "Player"
+    },
+    {
+      "name": "bountyMultiplier",
+      "id": "GmDEH{2[t3E;,=/dbLE/",
+      "type": "Player"
+    },
+    {
+      "name": "wantedLevel",
+      "id": "%q[bMg,y3-P``?W@sP=!",
+      "type": "Player"
+    }
+  ]
+}
